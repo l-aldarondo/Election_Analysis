@@ -1,63 +1,82 @@
-# Election_Analysis
+# Python_Election_Analysis
+
+## Background
+
+The client (The Colorado Board of Elctions) is interested in performing an election audit using python.
 
 ## Project Overview
 
-Analysis of election results using python to read in a csv file and provide the following deliverables:
+An analysis of election results using python to read in a csv file and provide the following deliverables:
 
-1.The election results printed to the command line.<br/>
-2.The election results saved to a Text file.<br/>
-3.A written Analysis of the election Audit.<br/>
+* The election results printed to the command line.
+* The election results saved to a Text file.
+* A written Analysis of the election Audit.
 
-## Overview of Election Audit
+### Overview of Election Audit
 
-A colorado Board of Elections employee has given you the following task to completebthe election audit of a recent local congressional election.
+A Colorado Board of Elections employee has given us the following task to completebthe election audit of a recent local congressional election. The output should be similar to figure 1.1.
 
-* Calculate the total number of votes cast
-* Get a complete list of candidates who recieved votes.
-* Calculate the total number of votes each candidate won.
-* Calculate the ercentage of votes each candidate won.
-* Determine the winner of the election based on popular votes.
-
+1. Calculate the total number of votes cast.
+2. Get a complete list of candidates who recieved votes.
+3. Calculate the total number of votes each candidate won.
+4. Calculate the percentage of votes each candidate won.
+5. Determine the winner of the election based on popular votes.
+\
+\
 ![Expected_Outcome](./Images/Expected%20_Outcome.png)
+
+#### Figure 1.1 Expected outcome example
+
+&nbsp;
 
 ## Resources
 
 * Data source: election_result.cvs
-* Software: Python 3.7.6, Visual Studio Code 2.3.5
+* Software: Python 3.7.6, Visual Studio Code 1.68.1
 
-## Summary
-
-### Eletion-Audit Results
+## Eletion-Audit Results
 
 The Analysis of the election show that:
 
-* There were "369,711" total votes cast in the election.
+* There were (369,711) total votes cast in the election.
 
 * The candidate were:
 
-    * Charles Casper Stockham
-    * Diana DeGette
-    * Rayman Anthony Doane
+  * Charles Casper Stockham
+  * Diana DeGette
+  * Rayman Anthony Doane
 
-- The candidate results were:
+* The candidate results were:
 
-    * Charles Casper Stockham: 23.0% (85,213)
-    * Diana DeGette: 73.8% (272,892)
-    * Raymon Anthony Doane: 3.1% (11,606)
+  * Charles Casper Stockham: 23.0% (85,213)
+  * Diana DeGette: 73.8% (272,892)
+  * Raymon Anthony Doane: 3.1% (11,606)
 
 * The winner of the election was:
 
-    * Candidate (Diana DeGette), who recieved 73.8% of the votes and (272,892) number of votes.
+  * Candidate (Diana DeGette), who recieved 73.8% of the votes and (272,892) number of votes.
 
-## Results as recorded in my election_analysis.text file
+### Results as recorded in my election_analysis.text file
 
 ![my_analysis](./Images/elecion_resultimage.png)
 
-## Election-Audit Challenge Summary
+#### Figure 1.2 Election audit results (challenge output)
 
-The python cod eprovided is Robust and can be used for any state wide elections given the follow:
-    1. Need a separate csv file for each election
-    2. Need a separate analysis file to record all the results.
-    3. The code does not  "hard wire" any candidates or counties and can be used or any state wide elections.
+&nbsp;
 
-## Challenge Overview
+## Election-Audit Summary
+
+Pre-tested code reduces the risk of failure because we are reusing a code that has been already used and is proven to work. The python code provided is robust and can be used for any state wide elections given the follow:
+
+  1. A separate csv file is used for each election.
+  2. Record all the results for each election in a separate “analysis file”. In that way we assure that we won't be overwriting any data.
+  3. The code does not  "hard wire" any candidates or counties and can be used for any state wide elections. This ensures flexibility in our code so that it can be used in future projects with minor alterations.
+  4. Since this is a robust working code, don't write lines of code that are not needed, and follow the DRY principle of “Don't repeat yourself.” That way we assure that the code is still functional with minimal alterations.  
+
+&nbsp;
+
+[Markdown reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[Markdown reference 2](https://www.markdownguide.org/basic-syntax/)
+
+[Reuse code reference](https://www.crowdbotics.com/blog/how-to-maximize-code-reuse-across-projects)
