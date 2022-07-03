@@ -2,22 +2,22 @@
 
 ## Background
 
-The client (The Colorado Board of Elctions) is interested in performing an election audit using python.
+The client (The Colorado Board of Elections) is interested in performing an election audit using python.
 
 ## Project Overview
 
 An analysis of election results using python to read in a csv file and provide the following deliverables:
 
 * The election results printed to the command line.
-* The election results saved to a Text file.
+* The election results are saved to a Text file.
 * A written Analysis of the election Audit.
 
 ### Overview of Election Audit
 
-A Colorado Board of Elections employee has given us the following task to completebthe election audit of a recent local congressional election. The output should be similar to figure 1.1.
+A Colorado Board of Elections employee has given us the following task to complete the election audit of a recent local congressional election. The output should be similar to figure 1.1.
 
 1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who recieved votes.
+2. Get a complete list of candidates who received votes.
 3. Calculate the total number of votes each candidate won.
 4. Calculate the percentage of votes each candidate won.
 5. Determine the winner of the election based on popular votes.
@@ -34,7 +34,7 @@ A Colorado Board of Elections employee has given us the following task to comple
 * Data source: election_result.cvs
 * Software: Python 3.7.6, Visual Studio Code 1.68.1
 
-## Eletion-Audit Results
+## Election-Audit Results
 
 The Analysis of the election show that:
 
@@ -54,7 +54,7 @@ The Analysis of the election show that:
 
 * The winner of the election was:
 
-  * Candidate (Diana DeGette), who recieved 73.8% of the votes and (272,892) number of votes.
+  * Candidate (Diana DeGette), who received 73.8% of the votes and (272,892) number of votes.
 
 ### Results as recorded in my election_analysis.text file
 
