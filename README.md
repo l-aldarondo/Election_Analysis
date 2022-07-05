@@ -36,11 +36,11 @@ A Colorado Board of Elections employee has given us the following task to comple
 
 ## Election-Audit Results
 
-The Analysis of the election show that:
+The analysis of the election show that:
 
 * There were (369,711) total votes cast in the election.
 
-* The candidate were:
+* The candidates were:
 
   * Charles Casper Stockham
   * Diana DeGette
@@ -72,11 +72,11 @@ The Analysis of the election show that:
 
 ## Election-Audit Summary
 
-Pre-tested code reduces the risk of failure because we are reusing a code that has been already used and is proven to work. The python code provided is robust and can be used for any state wide elections given the follow:
+Pre-tested code reduces the risk of failure because we are reusing a code that has been already used and is proven to work. The python code provided is robust and can be used for any state-wide election, given the following:
 
   1. A separate csv file is used for each election.
   2. Record all the results for each election in a separate “analysis file”. In that way we assure that we won't be overwriting any data.
-  3. The code does not  "hard wire" any candidates or counties and can be used for any state wide elections. This ensures flexibility in our code so that it can be used in future projects with minor alterations.
+  3. The code does not "hard wire" any candidates or counties and can be used for any state wide election. This ensures flexibility in our code so that it can be used in future projects with minor alterations.
   4. Since this is a robust working code, don't write lines of code that are not needed, and follow the DRY principle of “Don't repeat yourself.” That way we assure that the code is still functional with minimal alterations.  
 
 &nbsp;
