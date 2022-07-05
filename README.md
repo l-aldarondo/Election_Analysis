@@ -8,8 +8,8 @@ The client (The Colorado Board of Elections) is interested in performing an elec
 
 An analysis of election results using python to read in a csv file and provide the following deliverables:
 
-* The election results printed to the command line.
-* The election results are saved to a Text file.
+* The election results printed to the command line (Fig 1.2).
+* The election results are saved to a Text file (Fig 1.3).
 * A written Analysis of the election Audit.
 
 ### Overview of Election Audit
@@ -58,9 +58,15 @@ The Analysis of the election show that:
 
 ### Results as recorded in my election_analysis.text file
 
-![my_analysis](./Images/elecion_resultimage.png)
+![my_analysis](./Images/Election_results_print_terminal.png)
 
-#### Figure 1.2 Election audit results (challenge output)
+#### Figure 1.2 Election audit results printed to command line
+
+&nbsp;
+
+![my_analysis](./Images/Election_results_print_to_text.png)
+
+#### Figure 1.3 Election audit results saved to text file
 
 &nbsp;
 
