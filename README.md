@@ -56,7 +56,7 @@ The Analysis of the election show that:
 
   * Candidate (**Diana DeGette**), who received 73.8% of the votes and (272,892) number of votes.
 
-### Results as recorded in my election_analysis.text file
+### Results as recorded in my election_analysis file
 
 ![my_analysis](./Images/Election_results_print_terminal.png)
 
