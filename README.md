@@ -87,7 +87,7 @@ The analysis of the election show that:
 
 ## Election-Audit Summary
 
-Pre-tested code reduces the risk of failure because we are reusing a code that has been already used and is proven to work. The python code provided is robust and can be used for any state-wide election, given the following:
+The python code provided is robust and can be used for other elections, this would allow our clients to achieve a higher efficiency in their process. A pre-tested code reduces the risk of failure because we are reusing a code that has been already used and is proven to work. Therefore this code can be re-used for any state-wide election, given the following:
 
   1. A separate csv file is used for each election.
   2. Record all the results for each election in a separate “analysis file”. In that way we assure that we won't be overwriting any data.
