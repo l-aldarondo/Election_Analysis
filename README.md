@@ -14,15 +14,21 @@ An analysis of election results using python to read in a csv file and provide t
 
 ### Overview of Election Audit
 
-A Colorado Board of Elections employee has given us the following task to complete the election audit of a recent local congressional election. The output should be similar to figure 1.1.
+A Colorado Board of Elections employee has given us the following task to complete the election audit of a recent local congressional election. 
 
 1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate won.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular votes.
-\
-\
+2. Calculate the total number of votes for each county.
+3. Calculate the percentage of total votes for each county.
+4. Which county had the largest number of votes
+5. Get a complete list of candidates who received votes.
+6. Calculate the total number of votes each candidate won.
+7. Calculate the percentage of votes each candidate won.
+8. Determine the winner of the election based on popular votes.
+
+The output of our analysis should be similar to Figure 1.1.
+
+&nbsp;
+
 ![Expected_Outcome](./Images/Expected%20_Outcome.png)
 
 #### Figure 1.1 Expected outcome example
@@ -38,8 +44,17 @@ A Colorado Board of Elections employee has given us the following task to comple
 
 The analysis of the election show that:
 
-* There were (369,711) total votes cast in the election.
+* There were (**369,711**) total votes cast in the election.
 
+* The counties results were as follow:
+  * Jefferson: 10.5% (38,855)
+  * Denver: 82.8% (306,055)
+  * Arapahoe: 6.7% (24,801)
+ 
+ * The county with the the largest number of votes was:
+ 
+   * **Denver**
+ 
 * The candidates were:
 
   * Charles Casper Stockham
