@@ -9,7 +9,7 @@ The client (The Colorado Board of Elections) is interested in performing an elec
 An analysis of election results using python to read in a csv file and provide the following deliverables:
 
 * The election results printed to the command line (Fig 1.2).
-* The election results are saved to a Text file (Fig 1.3).
+* The election results saved to a Text file (Fig 1.3).
 * A written Analysis of the election Audit.
 
 ### Overview of Election Audit
@@ -19,7 +19,7 @@ A Colorado Board of Elections employee has given us the following task to comple
 1. Calculate the total number of votes cast.
 2. Calculate the total number of votes for each county.
 3. Calculate the percentage of total votes for each county.
-4. Which county had the largest number of votes
+4. Determine which county had the largest number of votes.
 5. Get a complete list of candidates who received votes.
 6. Calculate the total number of votes each candidate won.
 7. Calculate the percentage of votes each candidate won.
