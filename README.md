@@ -94,7 +94,9 @@ The python code provided is robust and can be used for other elections, this wou
   3. The code does not "hard wire" any candidates or counties and can be used for any state wide election. This ensures flexibility in our code so that it can be used in future projects with minor alterations.
   4. Since this is a robust working code, don't write lines of code that are not needed, and follow the DRY principle of “Don't repeat yourself.” That way we assure that the code is still functional with minimal alterations.  
 
-&nbsp;
+<br/>
+
+## References
 
 [Markdown reference 1](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
